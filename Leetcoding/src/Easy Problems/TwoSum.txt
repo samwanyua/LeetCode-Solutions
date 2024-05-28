@@ -82,7 +82,7 @@ Solution
     create a hashmap to keep track of element and index
     iterate through the indices of input array
     if 'target - nums[i] exists
-        return [currentIndex, map.get(target - nums[i])]
+        return [i, map.get(target - nums[i])]
     else 
         put nums[i] and 'i' into the map
     return empty array if none
