@@ -44,7 +44,7 @@ Constraints:
     Have low pointer and a high pointer
     iterate through and check if sum is 0 and add to a list
     define base case to check duplicates
-
+    return resulting list
     
 
     
