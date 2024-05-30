@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Partitionlabels {
     class Solution{
-        public List<Integer> partitionlabels(String S){
+        public List<Integer> partitionLabels(String S){
             char[] arr = S.toCharArray();
             int[] cache = new int[128];
             for(int i = 0; i < arr.length; i++){
