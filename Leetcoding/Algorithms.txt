@@ -1,0 +1,59 @@
+Sorting Algorithms
+    Bubble Sort
+    Selection Sort
+    Insertion Sort
+    Merge Sort
+    Quick Sort
+    Heap Sort
+Searching Algorithms
+    Linear Search
+    Binary Search
+Graph Algorithms
+    Depth-First Search (DFS)
+    Breadth-First Search (BFS)
+    Dijkstra’s Algorithm (Shortest Path)
+    A Algorithm* (Pathfinding)
+    Kruskal’s Algorithm (Minimum Spanning Tree)
+    Prim’s Algorithm (Minimum Spanning Tree)
+    Bellman-Ford Algorithm (Shortest Path)
+Dynamic Programming
+    Fibonacci Sequence
+    Knapsack Problem
+    Longest Common Subsequence
+    Longest Increasing Subsequence
+    Matrix Chain Multiplication
+    0/1 Knapsack Problem
+    Coin Change Problem
+Greedy Algorithms
+    Activity Selection
+    Huffman Coding
+    Kruskal's Algorithm
+    Prim's Algorithm
+Divide and Conquer
+    Merge Sort
+    Quick Sort
+    Binary Search
+    Strassen’s Matrix Multiplication
+Backtracking
+    N-Queens Problem
+    Sudoku Solver
+    Hamiltonian Path and Cycle
+    Knapsack Problem
+String Algorithms
+    Knuth-Morris-Pratt (KMP) Algorithm
+    Rabin-Karp Algorithm
+    Longest Common Substring
+    Longest Palindromic Substring
+Tree Algorithms
+    Tree Traversals (In-order, Pre-order, Post-order)
+    Binary Search Tree (BST) Operations (Insert, Delete, Search)
+    AVL Tree Rotations
+    Segment Trees
+    Trie Operations (Insert, Search, Delete)
+Miscellaneous
+    Union-Find (Disjoint Set)
+    Topological Sort
+    Flood Fill Algorithm
+    Reservoir Sampling
+    Floyd-Warshall Algorithm (All-Pairs Shortest Path)
+    KMP Algorithm (Pattern Searching)
