@@ -1,0 +1,74 @@
+9. Palindrome Number
+Given an integer x, return true if x is a 
+palindrome
+, and false otherwise.
+
+ 
+
+Example 1:
+
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+Example 2:
+
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+Example 3:
+
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+ 
+
+Constraints:
+
+-231 <= x <= 231 - 1
+ 
+
+Follow up: Could you solve it without converting the integer to a string?
+
+>> Solution:
+    palindrome - read the same way forward  and backward
+    ex. x and reverse of x are equal
+    we shouldn't convert int to string
+    create a variable to keep reverse of x
+    process digits of x from right to left , use %10 to retrieve the rightmost digit
+    multiply reverse by 10 then increment by the rightmost digit
+    remove the rightmost digit of x using division operator
+    after the above, compare x to it's reverse
+
+>> Pseudocode
+    validate input:
+        if x is -ve, return false
+    create two variables - copy of x, reverse of x
+    while copy > 0:
+        retrieve the rightmost digit 
+            digit  = copy % 10
+        multiply reverse by 10 the increment by digit
+        remove the rightmost digit by division with 10
+            copy = copy / 10
+
+        return true if reverse is equal to x
+
+    Time complexity - O(log N) cause' we process each digit of x
+    Space complexity - O(1)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

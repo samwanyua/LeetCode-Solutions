@@ -1,0 +1,29 @@
+259. 3Sum Smaller
+
+Given an array of n integers nums and an integer target,
+find the number of index triplets i, j,k with 0< i < j < k < n that
+satisfy the condition nums[i] + nums[j] + nums[k] < target
+
+Solve it in O(N^2)
+
+Example: nums = [-2,0,1,3], target = 2
+        output = 2
+There are two triplets which sum are less than 2
+ [-2,0,1]
+ [-2,0,3]
+
+ Example 2:
+    input: nums = [], target = 0
+    output: 0
+
+>> Thoughts
+    use two pointers O(N^2)
+    Pointer to the outer for loop
+    each iteration has left and right pointer
+
+>> PseudoCode
+    sort the array
+    iterate every single element 
+    define counter
+    find out three sum
+

@@ -1,0 +1,51 @@
+You are given a string s. We want to partition the string into as many parts as possible so that each letter appears in at most one part.
+
+Note that the partition is done so that after concatenating all the parts in order, the resultant string should be s.
+
+Return a list of integers representing the size of these parts.
+
+ 
+
+Example 1:
+
+Input: s = "ababcbacadefegdehijhklij"
+Output: [9,7,8]
+Explanation:
+The partition is "ababcbaca", "defegde", "hijhklij".
+This is a partition so that each letter appears in at most one part.
+A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits s into less parts.
+Example 2:
+
+Input: s = "eccbbbbdec"
+Output: [10]
+ 
+
+Constraints:
+
+1 <= s.length <= 500
+s consists of lowercase English letters.
+
+>> Thoughts
+    use brute force approach to check the appearance of each character
+    partition at the largest last appearance  character index
+    Time complexity O(N)
+
+    Optimize the solution
+    use two pointer approach
+    iterate through the entire given string
+    keep track of the last appearance of each character
+    
+    ex.
+    s = "abaete"
+         ^
+         max of a = 2, partition at index 2
+    [a:2
+    b:1
+    e:5
+    t:4]
+
+>> PseudoCode
+    Convert string to character array
+    iterate through the characters
+    Have left pointer which points to the start of the  partition, and right at the end
+
