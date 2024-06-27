@@ -15,3 +15,6 @@ class Solution:
 
         # optimized solution
         return sorted(s) == sorted(t)
+
+        # Shortcut
+        return Counter(s) == Counter(t)
