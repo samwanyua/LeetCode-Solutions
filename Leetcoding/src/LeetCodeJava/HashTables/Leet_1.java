@@ -2,7 +2,7 @@ public package HashTables;
 
 import java.util.HashMap;
 
-class TwoSum {
+class Leet_1 {
     public int[] twoSum(int[] nums, int target){
         // cache the values and their index
         HashMap<Integer, Integer> map = new HashMap<>();

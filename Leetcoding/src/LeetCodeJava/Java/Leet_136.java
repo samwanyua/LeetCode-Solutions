@@ -1,4 +1,4 @@
-public class SingleNumber {
+public class Leet_136 {
     class Solution {
         public int singleNumber(int[] nums) {
             int result = 0;
