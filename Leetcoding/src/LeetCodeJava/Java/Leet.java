@@ -1,6 +1,6 @@
 
-//  * Definition for singly-linked list.
- public class Leet {
+
+public class Leet {
      int val;
      ListNode next;
      ListNode() {}

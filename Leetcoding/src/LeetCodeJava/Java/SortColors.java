@@ -1,4 +1,4 @@
-package TwoPointers;
+
 
 public class SortColors {
     class Solution {
