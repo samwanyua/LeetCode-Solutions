@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ThreeSum {
+public class Leet_15 {
     class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         // Base case

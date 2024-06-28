@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class ThreeSumSmaller {
+public class Leet_259 {
     class Solution{
         public int threeSumSmaller(int [] nums, int target){
             Arrays.sort(nums);

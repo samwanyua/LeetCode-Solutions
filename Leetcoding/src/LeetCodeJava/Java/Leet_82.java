@@ -2,7 +2,7 @@
 
 // import Easy Problems.ListNode;
 
-public class RemoveDuplicatesFromSortedList {
+public class Leet_82 {
     
 //   Definition for singly-linked list.
   public class ListNode {
