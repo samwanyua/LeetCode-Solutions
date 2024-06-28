@@ -1,3 +1,4 @@
+package Easy;
 public class Leet_136 {
     class Solution {
         public int singleNumber(int[] nums) {

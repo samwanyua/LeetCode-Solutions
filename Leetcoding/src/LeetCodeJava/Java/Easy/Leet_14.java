@@ -1,3 +1,4 @@
+package Easy;
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String common = "";

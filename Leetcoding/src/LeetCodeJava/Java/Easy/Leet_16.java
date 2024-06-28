@@ -1,8 +1,9 @@
+package Easy;
 
 
 import java.util.Arrays;
 
-public class ThreeSumClosest {
+public class Leet_16 {
     class Solution {
         public int threeSumClosest(int[] nums, int target) {
             Arrays.sort(nums);
