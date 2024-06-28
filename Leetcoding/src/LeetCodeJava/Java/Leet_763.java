@@ -3,7 +3,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class Partitionlabels {
+public class Leet_763 {
     class Solution{
         public List<Integer> partitionLabels(String S){
             char[] arr = S.toCharArray();
