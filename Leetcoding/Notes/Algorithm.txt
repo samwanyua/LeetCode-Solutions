@@ -1,0 +1,14 @@
+Algorithms - series of steps you take to manipulate Declaration
+Data structures - way data is arranged in memory
+
+Main data operations
+    inserting
+    deleting
+    searching
+
+Multi dimensional arrays (3 x 3) .. x,y
+ String[][][] arr = {{{"000"},{"100"}, {"200"}},
+                    {{"211"}, {"2323"},{"324"}},
+                    {{"211"}, {"2323"},{"324"}},
+                    }
+
