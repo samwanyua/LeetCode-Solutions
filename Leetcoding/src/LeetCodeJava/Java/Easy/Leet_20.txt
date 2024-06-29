@@ -51,6 +51,6 @@ Pseudocode:
             return false
     return true if stack is empty ie opening brackets are paired with closing brackets
 
-Time: O(N)
-Space: O(N)
+Time complexity: O(N)
+Space complexity: O(N)
     
