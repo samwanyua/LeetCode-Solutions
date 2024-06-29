@@ -1,4 +1,4 @@
-package Medium;
+package Leetcoding.Medium;
 
 public class Leet_200 {
     public int numIslands(char[][] grid) {
